@@ -1,0 +1,465 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: larger;
+    
+}
+
+.ortanca {
+    margin: 19px;
+}
+
+.nav {
+    background-color: rgb(255, 250, 243);
+    height: 80px;
+}
+
+.container {
+    margin-top: 20px; /* Önceki değer: 50px */
+    text-align: center;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Navbar yüksekliğini dikkate alır */
+}
+
+.navbar-links a {
+    margin: 0 40px; /* Linkler arasındaki boşluğu ayarlar */
+}
+
+.col-4 {
+    text-align: center;
+}
+
+.yazilar{
+    margin-top: -1px;
+    margin-left: -300px;
+}
+
+.ptag{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: larger;
+    letter-spacing: 5px;
+
+}
+
+.button {
+    height: 30px;
+    width: 170px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+    background-color: rgb(253, 247, 244);
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px; /* İstediğiniz siyahlık boyutu */
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s;
+}
+
+.button:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+}
+
+.div{
+    margin: 20px;
+    
+}
+
+.img{
+    height: 650px;
+    width: 1400px;
+}
+
+.buttontwo{
+    margin-left: 210px;
+    background: none;
+    border:solid 1px blue;
+    color: blue;
+    border-radius: 5px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    
+   
+   
+    
+}
+
+.buttontwo:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+.yazi{
+    margin-top: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+.product-card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.product-card .price {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    color: #3498db;
+}
+
+.product-card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+}
+
+.main-image,
+.hover-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+   
+}
+
+.product-card:hover .main-image {
+    opacity: 0; /* Ana resmi kaybet */
+}
+
+.product-card:hover .hover-image {
+    opacity: 1; /* Üzerine gelindiğinde yeni resmi göster */
+}
+
+.product-card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.product-card .price {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    color: #3498db;
+}
+
+.buttonthree{
+    background: none;
+    border:solid 1px blue;
+    color: blue;
+    border-radius: 5px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 650px;
+    margin-top: 30px;
+
+}
+
+.buttonthree:hover{
+    background-color: blue;
+    color: white;
+    transition: 1s;
+    border-radius: 150px;
+    border-left: 20px;
+    
+
+}
+
+
+.jumping-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out; /* Zıplama efekti için geçiş süresi ve animasyon türü */
+}
+
+.jumping-button:hover {
+    transform: translateY(-12px); /* Butonun yukarıya zıplama mesafesi */
+}
+
+.jumping-button:active {
+    transform: translateY(); /* Butona tıklandığında orijinal konumuna dönme */
+}
+
+
+.maskelerimiz{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 70px;
+    
+}
+
+
+.res{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+.pthree{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.uzunyazi{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    margin-top:300px ;
+   
+
+}
+
+.yarim{
+    background-color:a5d2ff
+    
+}
+
+.gunluk{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.dikis{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.kapsayici{
+    background-color:#f3eae8;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+
+
+.kenarlikli {
+    border: 1px solid #ddd; /* Dış kenarlık rengi ve kalınlığı */
+    padding: 10px; /* Dış kenarlık içindeki içerikten boşluk bırakma */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Sütunları eşit aralıkla yerleştir */
+}
+
+.col-3 {
+    width: 23%; /* Sütunların genişliği */
+    border-right: 1px solid #ddd; /* Dikey çizgi rengi ve kalınlığı */
+    padding: 10px; /* Sütun içindeki içerikten boşluk bırakma */
+}
+
+.col-3:last-child {
+    border-right: none; /* Son sütunda dikey çizgiyi kaldır */
+}
+
+.vısage{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+    margin-top: 200px;
+    
+}
+
+.uclum{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+
+}
+
+.politika{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+
+}
+
+.ulasin{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+
+}
+
+.sonlar{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Ekran genişliği 768 pikselden küçükse */
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 10px; /* Yükseklik azalt */
+  }
+
+  .yazilar {
+    margin-left: 0; /* Sol kenara sıfır boşluk */
+  }
+
+  .button {
+    width: 100%; /* Tam genişlik */
+    margin-left: 0; /* Sol kenara sıfır boşluk */
+  }
+
+  .buttontwo {
+    margin-left: 0; /* Sol kenara sıfır boşluk */
+    width: 100%; /* Tam genişlik */
+  }
+
+  .buttonthree {
+    margin-left: 0; /* Sol kenara sıfır boşluk */
+    width: 100%; /* Tam genişlik */
+    margin-left: 0; /* Sol kenara sıfır boşluk */
+  }
+
+  .div {
+    margin: 10px; /* Kenar boşluğunu azalt */
+  }
+
+  .img {
+    width: 100%; /* Tam genişlik */
+    height: auto; /* Otomatik yükseklik */
+  }
+
+  .res {
+    width: 100%; /* Tam genişlik */
+    height: auto; /* Otomatik yükseklik */
+  }
+
+  .jumping-button {
+    width: 100%; /* Tam genişlik */
+    margin: 10px 0; /* Boşlukları azalt */
+  }
+
+  .product-card {
+    width: 100%; /* Tam genişlik */
+    margin-bottom: 20px; /* Alt boşluk ekleyin */
+  }
+
+  .pthree,
+  .uzunyazi,
+  .maskelerimiz,
+  .gunluk,
+  .vısage,
+  .uclum,
+  .politika,
+  .ulasin,
+  .sonlar {
+    margin-left: 0; /* Sol kenara sıfır boşluk */
+    margin-right: 0; /* Sağ kenara sıfır boşluk */
+    text-align: center; /* Metni merkezle */
+  }
+
+  .dikis {
+    width: 100%; /* Tam genişlik */
+    height: auto; /* Otomatik yükseklik */
+    margin-top: 20px; /* Üst boşluğu artır */
+    margin-bottom: 20px; /* Alt boşluğu artır */
+  }
+
+  .kenarlikli {
+    padding: 10px; /* İçeriği sıkıştır */
+  }
+
+  .row {
+    flex-direction: column; /* Sıralı düzeni sütun olarak değiştir */
+  }
+
+  .col-3 {
+    width: 100%; /* Tam genişlik */
+    border-right: none; /* Dikey çizgiyi kaldır */
+    margin-bottom: 20px; /* Alt boşluk ekleyin */
+  }
+
+  .col-3:last-child {
+    margin-bottom: 0; /* Son sütunun alt boşluğunu kaldır */
+  }
+}
+
